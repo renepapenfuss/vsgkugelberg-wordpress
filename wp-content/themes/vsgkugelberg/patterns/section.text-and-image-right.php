@@ -2,7 +2,7 @@
 
 /**
  * Title: Text And Image Right Section
- * Slug: vsgkugelberg/section.text-and-image-right
+ * Slug: vsgkugelberg/text-and-image-right-section
  * Categories: vsgkugelberg/sections
  */
 ?>

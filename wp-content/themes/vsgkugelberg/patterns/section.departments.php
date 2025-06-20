@@ -2,7 +2,7 @@
 
 /**
  * Title: Departments Section
- * Slug: vsgkugelberg/section.departments
+ * Slug: vsgkugelberg/departments-section
  * Categories: vsgkugelberg/sections
  */
 ?>
