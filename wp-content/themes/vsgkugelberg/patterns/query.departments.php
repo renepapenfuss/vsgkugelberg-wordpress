@@ -2,8 +2,8 @@
 
 /**
  * Title: Departments Query
- * Slug: vsgkugelberg/departments-query
- * Categories: vsgkugelberg/patterns
+ * Slug: vsgkugelberg/query.departments
+ * Categories: vsgkugelberg/queries
  */
 ?>
 <!-- wp:group {"layout":{"type":"default"}} -->
