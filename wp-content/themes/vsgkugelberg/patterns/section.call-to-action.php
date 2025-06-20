@@ -2,7 +2,7 @@
 
 /**
  * Title: Call To Action Section
- * Slug: vsgkugelberg/section.call-to-action
+ * Slug: vsgkugelberg/call-to-action-section
  * Categories: vsgkugelberg/sections
  */
 ?>

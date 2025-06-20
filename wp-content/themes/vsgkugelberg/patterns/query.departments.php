@@ -2,7 +2,7 @@
 
 /**
  * Title: Departments Query
- * Slug: vsgkugelberg/query.departments
+ * Slug: vsgkugelberg/departments-query
  * Categories: vsgkugelberg/queries
  */
 ?>

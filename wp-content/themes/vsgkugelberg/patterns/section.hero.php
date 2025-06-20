@@ -2,7 +2,7 @@
 
 /**
  * Title: Hero Section
- * Slug: vsgkugelberg/section.hero
+ * Slug: vsgkugelberg/hero-section
  * Categories: vsgkugelberg/sections
  */
 ?>
