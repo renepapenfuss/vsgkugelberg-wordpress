@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Section
- * Slug: vsgkugelberg/hero-section
- * Categories: vsgkugelberg/patterns
+ * Slug: vsgkugelberg/section.hero
+ * Categories: vsgkugelberg/sections
  */
 ?>
 <!-- wp:cover {"overlayColor":"primary\u002d\u002d100","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","templateLock":"all","lock":{"move":true,"remove":true},"layout":{"type":"constrained"}} -->

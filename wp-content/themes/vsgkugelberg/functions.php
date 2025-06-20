@@ -31,13 +31,17 @@ function vsgkugelberg_register_department_post_type()
 add_action('init', 'vsgkugelberg_register_department_post_type');
 
 //
-// Register A Custom Block Pattern Category
+// Register Custom Block Pattern Categories
 //
 function vsgkugelberg_register_pattern_categories()
 {
-	register_block_pattern_category('vsgkugelberg/patterns', array(
-		'label'       => __('VSG Kugelberg: Patterns', 'vsgkugelberg'),
-		'description' => __('Custom patterns for VSG Kugelberg.', 'vsgkugelberg')
+	register_block_pattern_category('vsgkugelberg/queries', array(
+		'label'       => __('VSG Kugelberg: Queries', 'vsgkugelberg'),
+		'description' => __('Custom queries for VSG Kugelberg.', 'vsgkugelberg')
+	));
+	register_block_pattern_category('vsgkugelberg/sections', array(
+		'label'       => __('VSG Kugelberg: Sections', 'vsgkugelberg'),
+		'description' => __('Custom sections for VSG Kugelberg.', 'vsgkugelberg')
 	));
 }
 add_action('init', 'vsgkugelberg_register_pattern_categories');
