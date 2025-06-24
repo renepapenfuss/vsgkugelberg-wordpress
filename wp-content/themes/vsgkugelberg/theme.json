@@ -110,8 +110,8 @@
       }
     },
     "layout": {
-      "contentSize": "64rem",
-      "wideSize": "96rem"
+      "contentSize": "64vw",
+      "wideSize": "96vw"
     },
     "spacing": {
       "blockGap": true,
@@ -128,6 +128,7 @@
     "typography": {
       "customFontSize": false,
       "dropCap": false,
+      "fluid": true,
       "fontFamilies": [
         {
           "fontFamily": "Montserrat",
@@ -226,7 +227,50 @@
           ]
         }
       ],
-      "fontSizes": [],
+      "fontSizes": [
+        {
+					"fluid": false,
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.375rem",
+						"min": "1.125rem"
+					},
+					"name": "Large",
+					"size": "1.38rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.75rem"
+					},
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2.15rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "2.15rem",
+					"slug": "xx-large"
+				}
+      ],
       "fontStyle": false,
       "fontWeight": true,
       "letterSpacing": false,
@@ -267,7 +311,7 @@
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--montserrat)",
-      "fontSize": "",
+      "fontSize": "var(--wp--preset--font-size--medium)",
       "fontStyle": "",
       "fontWeight": "400",
       "letterSpacing": "",
@@ -288,6 +332,15 @@
       "h4": {},
       "h5": {},
       "h6": {}
+    },
+    "blocks": {
+      "core/post-title": {
+        "spacing": {
+          "margin": {
+            "bottom": "0"
+          }
+        }
+      }
     }
   },
   "customTemplates": [],

@@ -57,6 +57,11 @@ function vsgkugelberg_styles()
 		[],
 		wp_get_theme()->get('Version')
 	);
+
+	$manifest = json_decode(file_get_contents(get_template_directory() . '/dist/.vite/manifest.json'), true);
+
+    wp_enqueue_style('theme-style', get_template_directory_uri() . '/dist/' . $manifest['style.scss']['file']);
+    wp_enqueue_script('theme-script', get_template_directory_uri() . '/dist/' . $manifest['main.ts']['file'], array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'vsgkugelberg_styles');
 
