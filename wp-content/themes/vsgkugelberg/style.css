@@ -7,3 +7,84 @@ Description: This is a WordPress block theme for the VSG Kugelberg e.v. Weißenf
 Version: 0.0.1
 Requires at least: 6.8
 */
+
+.wp-block-post-template.columns-4 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: var(--wp--preset--spacing--40);
+}
+
+@media (min-width: 401px) {
+  .wp-block-post-template.columns-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--wp--preset--spacing--40);
+  }
+}
+
+@media (min-width: 601px) {
+  .wp-block-post-template.columns-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--wp--preset--spacing--40);
+  }
+}
+
+@media (min-width: 782px) {
+  .wp-block-post-template.columns-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--wp--preset--spacing--40);
+  }
+}
+
+
+.wp-block-buttons.justify-start {
+  justify-content: flex-start;
+}
+
+.wp-block-buttons.justify-center {
+  justify-content: center;
+}
+
+.wp-block-buttons.justify-end {
+  justify-content: flex-end;
+}
+
+@media (min-width: 401px) {
+  .wp-block-buttons.justify-start-on-sm {
+    justify-content: flex-start;
+  }
+
+  .wp-block-buttons.justify-center-on-sm {
+    justify-content: center;
+  }
+
+  .wp-block-buttons.justify-end-on-sm {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 601px) {
+  .wp-block-buttons.justify-start-on-md {
+    justify-content: flex-start;
+  }
+
+  .wp-block-buttons.justify-center-on-md {
+    justify-content: center;
+  }
+
+  .wp-block-buttons.justify-end-on-md {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 782px) {
+  .wp-block-buttons.justify-start-on-lg {
+    justify-content: flex-start;
+  }
+
+  .wp-block-buttons.justify-center-on-lg {
+    justify-content: center;
+  }
+
+  .wp-block-buttons.justify-end-on-lg {
+    justify-content: flex-end;
+  }
+}
